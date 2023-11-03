@@ -1,7 +1,7 @@
-// I found the modal on W3school and made it mine. :D
+
 var modal = document.getElementById("myModal");
 
-// I adjusted the button size and color in my css document
+
 var btn = document.getElementById("myBtn");
 
 
