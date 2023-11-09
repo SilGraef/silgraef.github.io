@@ -18,7 +18,7 @@ if
  (fieldValue === '')
  { event.preventDefault(); 
   alert(`The ${field} field is required.`);
-  element.style.borderColor = 'red';
+  border: 1px solid red;
 return;
  } } // Check if the email address is valid.
 const
@@ -30,3 +30,5 @@ if
 return;
  } // Submit the form if all the validation checks pass.
  contactForm.submit(); });
+
+
