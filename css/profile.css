@@ -103,7 +103,9 @@ h1 {
     color: white;
   }
   
-  
+  .invalid-input {
+  border: 1px solid red;
+}
   
   /* The Modal (background) */
 .modal {
