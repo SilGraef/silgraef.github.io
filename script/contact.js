@@ -16,8 +16,9 @@ for
  fieldValue = contactForm.querySelector(`input[name="${field}"]`).value;
 if
  (fieldValue === '')
- { event.preventDefault(); alert(`The
-${field} field is required.`);
+ { event.preventDefault(); 
+  alert(`The ${field} field is required.`);
+  element.style.borderColor = 'red';
 return;
  } } // Check if the email address is valid.
 const
