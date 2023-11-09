@@ -18,7 +18,7 @@ if
  (fieldValue === '')
  { event.preventDefault(); 
   alert(`The ${field} field is required.`);
-  border: 1px solid red;
+  
 return;
  } } // Check if the email address is valid.
 const
